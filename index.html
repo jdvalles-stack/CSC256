@@ -15,13 +15,22 @@
     <main>
         <section>
             <h2> My Info</h2>
-            <div>Major: Digital Marketing</div>
-            <div>Email: jvalles92807@uat.edu</div>
-            <div>Expected Graduation Date: December 2026</div>
+            <div id="divMajor"></div>
+            <div id="divEmail"></div>
+            <div id="divGradDate"></div>
         </section>
         <section>
             <img src="images/digital marketing.png" alt="digital marketing logo" class="img-logo">
         </section>
     </main>
+
+    <!-- include a reference to the external JavaScript file -->
+   <script src="script.js"></script>
+  
+   <!-- this script section will let us call the code to add the text to our page -->
+    <script>      
+        // call the function
+        loadInfo();
+    </script>
 </body>
 </html>
