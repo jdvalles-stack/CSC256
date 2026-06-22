@@ -1,0 +1,18 @@
+  h1{
+            rgb(205, 48, 48)
+        } 
+        
+        main{
+            display: block;
+            margin: 0;
+            text-align: center;
+        }
+        div{
+            color:rgb(205, 48, 48);
+            font-size: large;
+        
+        }
+
+        button{
+            background-color: rgb(34, 63, 208);
+        }
